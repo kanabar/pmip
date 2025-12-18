@@ -1,0 +1,10 @@
+{
+  "name": "pm-practice-conference",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Project Management in Practice Conference Website",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html style.css dist/ && cp -r speakers agenda registration faq housing previous about dist/"
+  },
+  "devDependencies": {}
+}
